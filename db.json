@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    { "coverPicture":"https://drive.google.com/file/d/1IvzHExh8YFrxgmTuPOd4gaErVIpsT8cV/view",
+      "title": "Clinical Psychologist",
+      "type": "part time",
+      "companyName": "Rose Clinic",
+      "address": "Anywhere",
+      "salaryPerHour":"15-25",
+      "salaryAYear":"40000-50000"
+    },{
+      "coverPicture":"https://drive.google.com/file/d/1UmwMSTiR_I-s42PKQ0fpRrDXL9KECduV/view",
+      "title": "Senior Health And Nutrition Advisor",
+      "type": "full time",
+      "companyName": "Telimed",
+      "address": "New York",
+      "salaryPerHour":null,
+      "salaryAYear":"30000-35000"
+    },{
+      "coverPicture":"https://drive.google.com/file/d/1muSRITgqDk3YBt5rKqQRqIk00VaJ4Yi5/view",
+      "title": "Restaurant Dishwasher",
+      "type": "temporary",
+      "companyName": "King LLC",
+      "address": "London",
+      "salaryPerHour":null,
+      "salaryAYear":"55000-70000"
+    }
+  ]
+}

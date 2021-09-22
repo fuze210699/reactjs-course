@@ -1,8 +1,16 @@
-import React from "react";
+import testAPI from "apis/api/testAPI";
+import React, { useEffect } from "react";
 import LoginForm from "./LoginForm";
 import "./style.css";
 
 export default function LoginPage() {
+  useEffect(() => {
+    (async () => {
+      const res = await testAPI.getJobs();
+      console.log(res);
+    })();
+  }, []);
+
   return (
     <div className="login_page">
       <div className="login_title">
