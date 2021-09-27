@@ -1,18 +1,26 @@
 import React from "react";
 
-export default function LoginForm() {
+export default function LoginForm(props) {
+  const { submit } = props;
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    let data = {
+      email: "tranngocthien12a1@gmail.com",
+      password: "123456",
+    };
+    submit(data);
   };
+
   return (
     <>
       <div className="form-group">
         <label htmlFor="">Your Email Address</label>
-        <input type="email" className="form-input" />
+        <input type="email" name="email" className="form-input" />
       </div>
       <div className="form-group">
         <label htmlFor="">Create Password</label>
-        <input type="password" className="form-input" />
+        <input type="password" name="password" className="form-input" />
       </div>
       <div className="form-group">
         <span>

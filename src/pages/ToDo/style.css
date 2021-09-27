@@ -1,0 +1,8 @@
+li.completed {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+li.todoLi {
+    cursor: pointer;
+}
